@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="1F7K50TSd92PW3zc_SlD">
-    <mxGraphModel dx="1812" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1812" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1040" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,7 @@
         <mxCell id="MBCCijgHZlx6P2YHbA8H-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Создать баг-репорт" vertex="1">
           <mxGeometry height="70" width="140" x="320" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="MBCCijgHZlx6P2YHbA8H-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Назначить ответственного за исправления" vertex="1">
+        <mxCell id="MBCCijgHZlx6P2YHbA8H-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Назначить ответственную команду" vertex="1">
           <mxGeometry height="70" width="140" x="270" y="190" as="geometry" />
         </mxCell>
         <mxCell id="MBCCijgHZlx6P2YHbA8H-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;div&gt;Установить дедлайн&lt;/div&gt;" vertex="1">
@@ -138,6 +138,17 @@
         </mxCell>
         <mxCell id="bGgXKA8N6CZums1G4BNe-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Добавить комментарий к баг-репорту" vertex="1">
           <mxGeometry height="70" width="140" x="550" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-assign-developer" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Назначить разработчика из своей команды на исправление бага" vertex="1">
+          <mxGeometry height="80" width="200" x="850" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-teamlead-assign-developer" edge="1" parent="1" source="MBCCijgHZlx6P2YHbA8H-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="uc-assign-developer">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="765" />
+              <mxPoint x="1240" y="940" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

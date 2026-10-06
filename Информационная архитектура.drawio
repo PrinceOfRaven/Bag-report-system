@@ -1,31 +1,30 @@
-<?xml version='1.0' encoding='utf-8'?>
 <mxfile host="app.diagrams.net">
   <diagram name="Информационная архитектура" id="1F7K50TSd92PW3zc_SlD">
-    <mxGraphModel grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1333" pageHeight="1093" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0">
+    <mxGraphModel dx="1855" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1333" pageHeight="1093" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ia-title" parent="1" vertex="1" value="Баг-трекер — карта экранов и состав тикета" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;">
-          <mxGeometry as="geometry" x="26.67" y="8.0" width="1280.0" height="40.0" />
+        <mxCell id="ia-title" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" value="Баг-трекер — карта экранов и состав тикета" vertex="1">
+          <mxGeometry height="40" width="1280" x="26.67" y="8" as="geometry" />
         </mxCell>
-        <mxCell id="pUVvyvps7qlLitmosX6y-4" parent="1" vertex="1" value="Регистрация / авторизация" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="526.67" y="66.67" width="280.0" height="50.67" />
+        <mxCell id="pUVvyvps7qlLitmosX6y-4" parent="1" style="html=1;whiteSpace=wrap;" value="Регистрация / авторизация" vertex="1">
+          <mxGeometry height="50.67" width="280" x="526.67" y="66.67" as="geometry" />
         </mxCell>
-        <mxCell id="pUVvyvps7qlLitmosX6y-7" parent="1" vertex="1" value="Тестировщик&lt;br&gt;Главный экран" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="53.33" y="173.33" width="253.33" height="56.0" />
+        <mxCell id="pUVvyvps7qlLitmosX6y-7" parent="1" style="html=1;whiteSpace=wrap;" value="Тестировщик&lt;br&gt;Главный экран" vertex="1">
+          <mxGeometry height="56" width="253.33" x="53.33" y="173.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-auth-tester" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-4" target="pUVvyvps7qlLitmosX6y-7" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-auth-tester" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-4" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="pUVvyvps7qlLitmosX6y-7" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="143.33" />
-              <mxPoint x="180.0" y="143.33" />
+              <mxPoint x="180" y="143.33" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pUVvyvps7qlLitmosX6y-14" parent="1" vertex="1" value="Профиль" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="86.67" y="260.0" width="220.0" height="46.67" />
+        <mxCell id="pUVvyvps7qlLitmosX6y-14" parent="1" style="html=1;whiteSpace=wrap;" value="Профиль" vertex="1">
+          <mxGeometry height="46.67" width="220" x="86.67" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-pUVvyvps7qlLitmosX6y-14" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-7" target="pUVvyvps7qlLitmosX6y-14" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-pUVvyvps7qlLitmosX6y-14" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-7" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="pUVvyvps7qlLitmosX6y-14" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="63.33" y="243.33" />
@@ -33,10 +32,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pUVvyvps7qlLitmosX6y-15" parent="1" vertex="1" value="Тикеты" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="86.67" y="333.33" width="220.0" height="46.67" />
+        <mxCell id="pUVvyvps7qlLitmosX6y-15" parent="1" style="html=1;whiteSpace=wrap;" value="Тикеты" vertex="1">
+          <mxGeometry height="46.67" width="220" x="86.67" y="333.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-pUVvyvps7qlLitmosX6y-15" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-7" target="pUVvyvps7qlLitmosX6y-15" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-pUVvyvps7qlLitmosX6y-15" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-7" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="pUVvyvps7qlLitmosX6y-15" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="63.33" y="243.33" />
@@ -44,27 +43,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-tester-notifications" parent="1" vertex="1" value="Уведомления" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="86.67" y="406.67" width="220.0" height="46.67" />
+        <mxCell id="ia-tester-notifications" parent="1" style="html=1;whiteSpace=wrap;" value="Уведомления" vertex="1">
+          <mxGeometry height="46.67" width="220" x="86.67" y="406.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-ia-tester-notifications" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-7" target="ia-tester-notifications" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-ia-tester-notifications" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-7" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-tester-notifications" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="63.33" y="243.33" />
-              <mxPoint x="63.33" y="430.0" />
+              <mxPoint x="63.33" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-notification-open-tester" parent="1" edge="1" source="ia-tester-notifications" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;">
+        <mxCell id="ia-notification-open-tester" edge="1" parent="1" source="ia-tester-notifications" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="323.33" y="430.0" />
+              <mxPoint x="323.33" y="430" />
               <mxPoint x="323.33" y="646.67" />
               <mxPoint x="666.67" y="646.67" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-ticket-open-tester" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-15" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="ia-ticket-open-tester" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-15" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="76.67" y="356.67" />
@@ -73,10 +72,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pUVvyvps7qlLitmosX6y-8" parent="1" vertex="1" value="Разработчик&lt;br&gt;Главный экран" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="380.0" y="173.33" width="253.33" height="56.0" />
+        <mxCell id="pUVvyvps7qlLitmosX6y-8" parent="1" style="html=1;whiteSpace=wrap;" value="Разработчик&lt;br&gt;Главный экран" vertex="1">
+          <mxGeometry height="56" width="253.33" x="380" y="173.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-auth-developer" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-4" target="pUVvyvps7qlLitmosX6y-8" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-auth-developer" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-4" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="pUVvyvps7qlLitmosX6y-8" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="143.33" />
@@ -84,49 +83,49 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XfvwJTMl7Dpidur5V7ly-1" parent="1" vertex="1" value="Профиль" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="413.33" y="260.0" width="220.0" height="46.67" />
+        <mxCell id="XfvwJTMl7Dpidur5V7ly-1" parent="1" style="html=1;whiteSpace=wrap;" value="Профиль" vertex="1">
+          <mxGeometry height="46.67" width="220" x="413.33" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-1" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-8" target="XfvwJTMl7Dpidur5V7ly-1" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-1" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-8" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="XfvwJTMl7Dpidur5V7ly-1" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390.0" y="243.33" />
-              <mxPoint x="390.0" y="283.33" />
+              <mxPoint x="390" y="243.33" />
+              <mxPoint x="390" y="283.33" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XfvwJTMl7Dpidur5V7ly-3" parent="1" vertex="1" value="Тикеты" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="413.33" y="333.33" width="220.0" height="46.67" />
+        <mxCell id="XfvwJTMl7Dpidur5V7ly-3" parent="1" style="html=1;whiteSpace=wrap;" value="Тикеты" vertex="1">
+          <mxGeometry height="46.67" width="220" x="413.33" y="333.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-3" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-8" target="XfvwJTMl7Dpidur5V7ly-3" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-3" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-8" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="XfvwJTMl7Dpidur5V7ly-3" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390.0" y="243.33" />
-              <mxPoint x="390.0" y="356.67" />
+              <mxPoint x="390" y="243.33" />
+              <mxPoint x="390" y="356.67" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-developer-notifications" parent="1" vertex="1" value="Уведомления" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="413.33" y="406.67" width="220.0" height="46.67" />
+        <mxCell id="ia-developer-notifications" parent="1" style="html=1;whiteSpace=wrap;" value="Уведомления" vertex="1">
+          <mxGeometry height="46.67" width="220" x="413.33" y="406.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-ia-developer-notifications" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-8" target="ia-developer-notifications" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-ia-developer-notifications" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-8" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-developer-notifications" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390.0" y="243.33" />
-              <mxPoint x="390.0" y="430.0" />
+              <mxPoint x="390" y="243.33" />
+              <mxPoint x="390" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-notification-open-developer" parent="1" edge="1" source="ia-developer-notifications" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;">
+        <mxCell id="ia-notification-open-developer" edge="1" parent="1" source="ia-developer-notifications" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="650.0" y="430.0" />
-              <mxPoint x="650.0" y="646.67" />
+              <mxPoint x="650" y="430" />
+              <mxPoint x="650" y="646.67" />
               <mxPoint x="666.67" y="646.67" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-ticket-open-developer" parent="1" edge="1" source="XfvwJTMl7Dpidur5V7ly-3" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="ia-ticket-open-developer" edge="1" parent="1" source="XfvwJTMl7Dpidur5V7ly-3" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="403.33" y="356.67" />
@@ -135,10 +134,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pUVvyvps7qlLitmosX6y-9" parent="1" vertex="1" value="Руководитель проекта&lt;br&gt;Главный экран" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="706.67" y="173.33" width="253.33" height="56.0" />
+        <mxCell id="pUVvyvps7qlLitmosX6y-9" parent="1" style="html=1;whiteSpace=wrap;" value="Руководитель проекта&lt;br&gt;Главный экран" vertex="1">
+          <mxGeometry height="56" width="253.33" x="706.67" y="173.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-auth-leader" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-4" target="pUVvyvps7qlLitmosX6y-9" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-auth-leader" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-4" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="pUVvyvps7qlLitmosX6y-9" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="143.33" />
@@ -146,10 +145,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XfvwJTMl7Dpidur5V7ly-5" parent="1" vertex="1" value="Профиль" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="740.0" y="260.0" width="220.0" height="46.67" />
+        <mxCell id="XfvwJTMl7Dpidur5V7ly-5" parent="1" style="html=1;whiteSpace=wrap;" value="Профиль" vertex="1">
+          <mxGeometry height="46.67" width="220" x="740" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-5" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-9" target="XfvwJTMl7Dpidur5V7ly-5" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-5" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-9" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="XfvwJTMl7Dpidur5V7ly-5" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="716.67" y="243.33" />
@@ -157,10 +156,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XfvwJTMl7Dpidur5V7ly-6" parent="1" vertex="1" value="Тикеты" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="740.0" y="333.33" width="220.0" height="46.67" />
+        <mxCell id="XfvwJTMl7Dpidur5V7ly-6" parent="1" style="html=1;whiteSpace=wrap;" value="Тикеты" vertex="1">
+          <mxGeometry height="46.67" width="220" x="740" y="333.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-6" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-9" target="XfvwJTMl7Dpidur5V7ly-6" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-6" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-9" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="XfvwJTMl7Dpidur5V7ly-6" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="716.67" y="243.33" />
@@ -168,50 +167,50 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-leader-notifications" parent="1" vertex="1" value="Уведомления" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="740.0" y="406.67" width="220.0" height="46.67" />
+        <mxCell id="ia-leader-notifications" parent="1" style="html=1;whiteSpace=wrap;" value="Уведомления" vertex="1">
+          <mxGeometry height="46.67" width="220" x="740" y="406.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-ia-leader-notifications" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-9" target="ia-leader-notifications" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-ia-leader-notifications" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-9" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-leader-notifications" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="716.67" y="243.33" />
-              <mxPoint x="716.67" y="430.0" />
+              <mxPoint x="716.67" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-notification-open-leader" parent="1" edge="1" source="ia-leader-notifications" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;">
+        <mxCell id="ia-notification-open-leader" edge="1" parent="1" source="ia-leader-notifications" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="976.67" y="430.0" />
+              <mxPoint x="976.67" y="430" />
               <mxPoint x="976.67" y="646.67" />
               <mxPoint x="666.67" y="646.67" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-ticket-open-leader" parent="1" edge="1" source="XfvwJTMl7Dpidur5V7ly-6" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="ia-ticket-open-leader" edge="1" parent="1" source="XfvwJTMl7Dpidur5V7ly-6" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="730.0" y="356.67" />
-              <mxPoint x="730.0" y="633.33" />
+              <mxPoint x="730" y="356.67" />
+              <mxPoint x="730" y="633.33" />
               <mxPoint x="666.67" y="633.33" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-teamlead-home" parent="1" vertex="1" value="Тим-лид&lt;br&gt;Главный экран" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="1033.33" y="173.33" width="253.33" height="56.0" />
+        <mxCell id="ia-teamlead-home" parent="1" style="html=1;whiteSpace=wrap;" value="Тим-лид&lt;br&gt;Главный экран" vertex="1">
+          <mxGeometry height="56" width="253.33" x="1033.33" y="173.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-auth-teamlead" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-4" target="ia-teamlead-home" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-auth-teamlead" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-4" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-teamlead-home" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="143.33" />
-              <mxPoint x="1160.0" y="143.33" />
+              <mxPoint x="1160" y="143.33" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-teamlead-profile" parent="1" vertex="1" value="Профиль" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="1066.67" y="260.0" width="220.0" height="46.67" />
+        <mxCell id="ia-teamlead-profile" parent="1" style="html=1;whiteSpace=wrap;" value="Профиль" vertex="1">
+          <mxGeometry height="46.67" width="220" x="1066.67" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-ia-teamlead-profile" parent="1" edge="1" source="ia-teamlead-home" target="ia-teamlead-profile" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-ia-teamlead-profile" edge="1" parent="1" source="ia-teamlead-home" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-teamlead-profile" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1043.33" y="243.33" />
@@ -219,10 +218,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-teamlead-tickets" parent="1" vertex="1" value="Тикеты" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="1066.67" y="333.33" width="220.0" height="46.67" />
+        <mxCell id="ia-teamlead-tickets" parent="1" style="html=1;whiteSpace=wrap;" value="Тикеты" vertex="1">
+          <mxGeometry height="46.67" width="220" x="1066.67" y="333.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-ia-teamlead-tickets" parent="1" edge="1" source="ia-teamlead-home" target="ia-teamlead-tickets" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-ia-teamlead-tickets" edge="1" parent="1" source="ia-teamlead-home" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-teamlead-tickets" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1043.33" y="243.33" />
@@ -230,27 +229,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-teamlead-notifications" parent="1" vertex="1" value="Уведомления" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="1066.67" y="406.67" width="220.0" height="46.67" />
+        <mxCell id="ia-teamlead-notifications" parent="1" style="html=1;whiteSpace=wrap;" value="Уведомления" vertex="1">
+          <mxGeometry height="46.67" width="220" x="1066.67" y="406.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-ia-teamlead-notifications" parent="1" edge="1" source="ia-teamlead-home" target="ia-teamlead-notifications" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-ia-teamlead-notifications" edge="1" parent="1" source="ia-teamlead-home" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-teamlead-notifications" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1043.33" y="243.33" />
-              <mxPoint x="1043.33" y="430.0" />
+              <mxPoint x="1043.33" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-notification-open-teamlead" parent="1" edge="1" source="ia-teamlead-notifications" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;">
+        <mxCell id="ia-notification-open-teamlead" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0.5;entryY=0;dashed=1;" value="" source="ia-teamlead-notifications" target="ia-ticket-card">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1303.33" y="430.0" />
-              <mxPoint x="1303.33" y="646.67" />
-              <mxPoint x="666.67" y="646.67" />
+              <mxPoint x="1303.6599999999999" y="430" />
+              <mxPoint x="1303.6599999999999" y="646.67" />
+              <mxPoint x="667" y="646.67" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-ticket-open-teamlead" parent="1" edge="1" source="ia-teamlead-tickets" target="ia-ticket-card" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;">
+        <mxCell id="ia-ticket-open-teamlead" edge="1" parent="1" source="ia-teamlead-tickets" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0.5;entryY=0;" target="ia-ticket-card" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1056.67" y="356.67" />
@@ -259,10 +258,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XfvwJTMl7Dpidur5V7ly-7" parent="1" vertex="1" value="Команды" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="740.0" y="480.0" width="220.0" height="50.67" />
+        <mxCell id="XfvwJTMl7Dpidur5V7ly-7" parent="1" style="html=1;whiteSpace=wrap;" value="Команды" vertex="1">
+          <mxGeometry height="50.67" width="220" x="740" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-7" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-9" target="XfvwJTMl7Dpidur5V7ly-7" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-7" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-9" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="XfvwJTMl7Dpidur5V7ly-7" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="716.67" y="243.33" />
@@ -270,10 +269,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XfvwJTMl7Dpidur5V7ly-8" parent="1" vertex="1" value="Назначение работы&lt;br&gt;Ответственный и дедлайн" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="740.0" y="553.33" width="220.0" height="50.67" />
+        <mxCell id="XfvwJTMl7Dpidur5V7ly-8" parent="1" style="html=1;whiteSpace=wrap;" value="Назначение команды&lt;br&gt;Дедлайн и порядок исправления" vertex="1">
+          <mxGeometry height="50.67" width="220" x="740" y="553.33" as="geometry" />
         </mxCell>
-        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-8" parent="1" edge="1" source="pUVvyvps7qlLitmosX6y-9" target="XfvwJTMl7Dpidur5V7ly-8" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;">
+        <mxCell id="ia-home-XfvwJTMl7Dpidur5V7ly-8" edge="1" parent="1" source="pUVvyvps7qlLitmosX6y-9" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="XfvwJTMl7Dpidur5V7ly-8" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="716.67" y="243.33" />
@@ -281,13 +280,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-ticket-card" parent="1" vertex="1" value="Карточка тикета&lt;br&gt;Общая для всех ролей" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="526.67" y="660.0" width="280.0" height="56.0" />
+        <mxCell id="ia-ticket-card" parent="1" style="html=1;whiteSpace=wrap;" value="Карточка тикета&lt;br&gt;Общая для всех ролей" vertex="1">
+          <mxGeometry height="56" width="280" x="526.67" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="ia-section-description" parent="1" vertex="1" value="Описание и материалы бага" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="26.67" y="786.67" width="233.33" height="50.67" />
+        <mxCell id="ia-section-description" parent="1" style="html=1;whiteSpace=wrap;" value="Описание и материалы бага" vertex="1">
+          <mxGeometry height="50.67" width="233.33" x="26.67" y="786.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-card-description" parent="1" edge="1" source="ia-ticket-card" target="ia-section-description" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-card-description" edge="1" parent="1" source="ia-ticket-card" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-section-description" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="746.67" />
@@ -295,16 +294,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-detail-description" parent="1" vertex="1" value="ПО, описание, шаги воспроизведения&lt;br&gt;Ожидаемый и фактический результат&lt;br&gt;Приоритет, логи и скриншоты" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="26.67" y="860.0" width="233.33" height="106.67" />
+        <mxCell id="ia-detail-description" parent="1" style="html=1;whiteSpace=wrap;" value="ПО, описание, шаги воспроизведения&lt;br&gt;Ожидаемый и фактический результат&lt;br&gt;Приоритет, логи и скриншоты" vertex="1">
+          <mxGeometry height="106.67" width="233.33" x="26.67" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="ia-detail-edge-description" parent="1" edge="1" source="ia-section-description" target="ia-detail-description" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-detail-edge-description" edge="1" parent="1" source="ia-section-description" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-detail-description" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ia-section-planning" parent="1" vertex="1" value="Статус и планирование" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="286.67" y="786.67" width="233.33" height="50.67" />
+        <mxCell id="ia-section-planning" parent="1" style="html=1;whiteSpace=wrap;" value="Статус и планирование" vertex="1">
+          <mxGeometry height="50.67" width="233.33" x="286.67" y="786.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-card-planning" parent="1" edge="1" source="ia-ticket-card" target="ia-section-planning" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-card-planning" edge="1" parent="1" source="ia-ticket-card" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-section-planning" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="746.67" />
@@ -312,16 +311,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-detail-planning" parent="1" vertex="1" value="Текущий статус и ответственный&lt;br&gt;Действующий дедлайн&lt;br&gt;Причина задержки / неудачи&lt;br&gt;Предлагаемый срок продления" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="286.67" y="860.0" width="233.33" height="106.67" />
+        <mxCell id="ia-detail-planning" parent="1" style="html=1;whiteSpace=wrap;" value="Текущий статус&lt;br&gt;Ответственная команда&lt;br&gt;Один назначенный разработчик&lt;br&gt;Действующий дедлайн&lt;br&gt;Причина задержки / неудачи&lt;br&gt;Предлагаемый срок продления" vertex="1">
+          <mxGeometry height="106.67" width="233.33" x="286.67" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="ia-detail-edge-planning" parent="1" edge="1" source="ia-section-planning" target="ia-detail-planning" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-detail-edge-planning" edge="1" parent="1" source="ia-section-planning" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-detail-planning" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ia-section-fix" parent="1" vertex="1" value="Сведения об исправлении" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="546.67" y="786.67" width="233.33" height="50.67" />
+        <mxCell id="ia-section-fix" parent="1" style="html=1;whiteSpace=wrap;" value="Сведения об исправлении" vertex="1">
+          <mxGeometry height="50.67" width="233.33" x="546.67" y="786.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-card-fix" parent="1" edge="1" source="ia-ticket-card" target="ia-section-fix" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-card-fix" edge="1" parent="1" source="ia-ticket-card" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-section-fix" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="746.67" />
@@ -329,16 +328,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-detail-fix" parent="1" vertex="1" value="Релиз / версия ПО&lt;br&gt;Ссылки на коммиты / MR" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="546.67" y="860.0" width="233.33" height="106.67" />
+        <mxCell id="ia-detail-fix" parent="1" style="html=1;whiteSpace=wrap;" value="Релиз / версия ПО&lt;br&gt;Ссылки на коммиты / MR" vertex="1">
+          <mxGeometry height="106.67" width="233.33" x="546.67" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="ia-detail-edge-fix" parent="1" edge="1" source="ia-section-fix" target="ia-detail-fix" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-detail-edge-fix" edge="1" parent="1" source="ia-section-fix" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-detail-fix" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ia-section-discussion" parent="1" vertex="1" value="Обсуждение" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="806.67" y="786.67" width="233.33" height="50.67" />
+        <mxCell id="ia-section-discussion" parent="1" style="html=1;whiteSpace=wrap;" value="Обсуждение" vertex="1">
+          <mxGeometry height="50.67" width="233.33" x="806.67" y="786.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-card-discussion" parent="1" edge="1" source="ia-ticket-card" target="ia-section-discussion" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-card-discussion" edge="1" parent="1" source="ia-ticket-card" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-section-discussion" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="746.67" />
@@ -346,16 +345,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-detail-discussion" parent="1" vertex="1" value="Список комментариев&lt;br&gt;Автор и время отправки&lt;br&gt;Вложения&lt;br&gt;Форма нового комментария / ответа" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="806.67" y="860.0" width="233.33" height="106.67" />
+        <mxCell id="ia-detail-discussion" parent="1" style="html=1;whiteSpace=wrap;" value="Список комментариев&lt;br&gt;Автор и время отправки&lt;br&gt;Вложения&lt;br&gt;Форма нового комментария / ответа" vertex="1">
+          <mxGeometry height="106.67" width="233.33" x="806.67" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="ia-detail-edge-discussion" parent="1" edge="1" source="ia-section-discussion" target="ia-detail-discussion" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-detail-edge-discussion" edge="1" parent="1" source="ia-section-discussion" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-detail-discussion" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ia-section-history" parent="1" vertex="1" value="История изменений" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="1066.67" y="786.67" width="233.33" height="50.67" />
+        <mxCell id="ia-section-history" parent="1" style="html=1;whiteSpace=wrap;" value="История изменений" vertex="1">
+          <mxGeometry height="50.67" width="233.33" x="1066.67" y="786.67" as="geometry" />
         </mxCell>
-        <mxCell id="ia-card-history" parent="1" edge="1" source="ia-ticket-card" target="ia-section-history" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-card-history" edge="1" parent="1" source="ia-ticket-card" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-section-history" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="666.67" y="746.67" />
@@ -363,14 +362,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ia-detail-history" parent="1" vertex="1" value="Изменения статуса, ответственного&lt;br&gt;и дедлайна; сведения об исправлении&lt;br&gt;Кто и когда внёс изменение" style="html=1;whiteSpace=wrap;">
-          <mxGeometry as="geometry" x="1066.67" y="860.0" width="233.33" height="106.67" />
+        <mxCell id="ia-detail-history" parent="1" style="html=1;whiteSpace=wrap;" value="Изменения команды, исполнителя,&lt;br&gt;статуса и дедлайна&lt;br&gt;Сведения об исправлении&lt;br&gt;Кто и когда внёс изменение" vertex="1">
+          <mxGeometry height="106.67" width="233.33" x="1066.67" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="ia-detail-edge-history" parent="1" edge="1" source="ia-section-history" target="ia-detail-history" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+        <mxCell id="ia-detail-edge-history" edge="1" parent="1" source="ia-section-history" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="ia-detail-history" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ia-navigation-note" parent="1" vertex="1" value="Пунктир: переход из уведомления в связанный тикет и к нужному комментарию / изменению.&lt;br&gt;Нижняя часть схемы показывает разделы одной карточки, а не отдельные экраны.&lt;br&gt;Дедлайн изменяет руководитель; предложенный тим-лидом срок сохраняется как запрос." style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;">
-          <mxGeometry as="geometry" x="120.0" y="993.33" width="1093.33" height="69.33" />
+        <mxCell id="ia-navigation-note" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" value="Пунктир: переход из уведомления в связанный тикет и к нужному комментарию / изменению.&lt;br&gt;Нижняя часть схемы показывает разделы одной карточки, а не отдельные экраны.&lt;br&gt;Команду назначает руководитель, исполнителя — её тим-лид: один баг — один разработчик.&lt;br&gt;Дедлайн и порядок исправления определяет руководитель; предложенный тим-лидом срок сохраняется как запрос." vertex="1">
+          <mxGeometry height="69.33" width="1093.33" x="120" y="993.33" as="geometry" />
+        </mxCell>
+        <mxCell id="ia-teamlead-assignment" parent="1" style="html=1;whiteSpace=wrap;" value="Назначение разработчика&lt;br&gt;на исправление бага&lt;br&gt;(из своей команды)" vertex="1">
+          <mxGeometry height="50.67" width="220" x="1066.67" y="553.33" as="geometry" />
+        </mxCell>
+        <mxCell id="ia-home-teamlead-assignment" edge="1" parent="1" source="ia-teamlead-home" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="ia-teamlead-assignment">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1043.33" y="243.33" />
+              <mxPoint x="1043.33" y="578.67" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
